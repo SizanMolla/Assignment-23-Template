@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    height: auto;
+    margin-top: 20px;
+}
+
+.main-header{
+    padding:10px 0;
+    display: flex;
+  
+ 
+}
+
+.logo{
+    padding-left:100px;
+}
+
+.logo img{
+height:50px;
+
+
+}
+
+.dropdown{
+  
+    justify-content: flex-end;
+    padding-left: 40%;
+   
+}
+
+.dropdown ul{
+    text-align: center;
+    display: flex;
+   
+}
+.dropdown ul li{
+    list-style: none;
+    flex-grow: 1;
+
+}
+.dropdown ul li a{
+
+    padding: 10px 10px;
+    display: block;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+/* Header-End */
+
+.main{
+    margin-top: 10px;
+}
+
+
+.first-col{
+    display: flex;
+    justify-content: space-around;
+}
+
+.green-1{
+    height:200px;
+    width:200px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-1{
+    height:50px;
+    width:50px;
+    background-color: red;
+    color: aliceblue;
+    line-height: 200px;
+}
+.green-2{
+    height:200px;
+    width: 200px;
+    border: 2px solid green;
+    display: flex;
+    justify-content:start;
+  
+}
+
+.red-2{
+    height:50px;
+    width:50px;
+    background-color: red;
+    color: aliceblue;
+    line-height: 200px;
+}
+.green-3{
+    height:200px;
+    width: 200px;
+    border: 2px solid green;
+    display: flex;
+    justify-content:end;
+    align-items:flex-end;
+}
+
+.red-3{
+    height:50px;
+    width:50px;
+    background-color: red;
+    color: aliceblue;
+    line-height: 200px;
+}
+
+/* ENd Main */
+
+.bold{
+    display: flex;
+    margin-top: 20px;
+}
+
+.itm {
+    border: 1px solid rgb(24, 23, 23);
+    flex: 1;
+}
+
+.child{
+    flex-grow: 2;
+}
